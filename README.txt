@@ -1,29 +1,26 @@
-ANGGA & RISMA — WEBSITE UNDANGAN DIGITAL (PERSONALIZED GUEST URL)
+ANGGA & RISMA - WEBSITE UNDANGAN DIGITAL
 
-ISI FOLDER
-- index.html: halaman undangan utama
-- 404.html: membuat URL tamu seperti /angga-risma-wedding/agus tetap menampilkan undangan di GitHub Pages
-- assets/opening.mp4: letakkan video pembuka Anda di sini
+Isi paket:
+- index.html : halaman undangan
+- 404.html : pengarah link nama tamu (/agus)
+- assets/opening.mp4 : video pembuka asli yang dikirim
 
-PERSONALISASI NAMA TAMU
-Setelah website tayang, bagikan URL dengan nama tamu di bagian paling akhir. Contoh:
-https://USERNAME.github.io/angga-risma-wedding/agus
-https://USERNAME.github.io/angga-risma-wedding/keluarga-pak-andi
+CARA UPDATE DI REPOSITORY GITHUB
+1. Buka repository: AnggaHL/the-wedding-of-angga-risma
+2. Upload/replace index.html dan 404.html pada root repository.
+3. Buat folder assets jika belum ada, lalu upload opening.mp4 ke dalam assets.
+4. Commit changes.
+5. Pastikan Settings > Pages menggunakan Deploy from a branch, branch main, folder /(root).
+6. Tunggu beberapa menit, lalu buka https://anggahl.github.io/the-wedding-of-angga-risma/
 
-Nama diambil dari segmen setelah nama repository. Tanda hubung/underscore akan diubah menjadi spasi dan kapitalisasi otomatis. Tidak perlu membuat halaman baru untuk setiap tamu. Pastikan file 404.html ikut diunggah bersama index.html.
+LINK PERSONAL
+Setelah deploy, link seperti https://anggahl.github.io/the-wedding-of-angga-risma/agus akan diarahkan melalui 404.html ke halaman undangan dengan nama Agus.
 
-PENTING TENTANG ALAMAT
-GitHub Pages gratis tanpa domain berbayar menggunakan format https://USERNAME.github.io/angga-risma-wedding/agus . Bentuk domain khusus seperti weddinganggadanrisma.com memerlukan domain yang dimiliki/dibeli dan dikonfigurasi. Contoh github.weddinganggadanrisma.com bukan alamat GitHub Pages standar.
+CATATAN VIDEO/AUDIO
+Browser HP sering memblokir autoplay dengan suara. Video akan mulai muted, lalu tamu dapat mengetuk tombol untuk mengaktifkan suara. Setelah video selesai, ikon love muncul. Audio berasal dari video itu sendiri.
 
-SEBELUM DIPUBLIKASIKAN
-1. Masukkan video portrait MP4 ke folder assets dan beri nama opening.mp4.
-2. Ganti nama orang tua, waktu/lokasi acara, foto, rekening, dan nomor WhatsApp di index.html.
-3. Upload index.html, 404.html, README.txt, dan folder assets ke repository GitHub bernama angga-risma-wedding.
-4. GitHub: Settings > Pages > Deploy from a branch > main > /(root) > Save.
-5. Tunggu publikasi selesai.
-
-AUDIO
-Browser HP sering memblokir autoplay dengan suara. Video bisa autoplay tanpa suara, lalu tamu harus mengetuk tombol aktifkan suara. Audio tetap berasal dari file video.
-
-CATATAN
-GitHub Pages hanya hosting statis. RSVP pada template membuka WhatsApp; data RSVP tidak tersimpan otomatis di database. Kompres video agar cepat dimuat lewat jaringan seluler.
+DATA YANG MASIH PERLU DILENGKAPI
+- Lokasi dan jam akad/resepsi
+- Foto mempelai/galeri tambahan
+- Nomor WhatsApp RSVP
+- Detail rekening/wedding gift (jika ingin ditampilkan)
